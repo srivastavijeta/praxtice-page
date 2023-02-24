@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-page{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+background-image: url(image/librar.webp)
+}
+.main-page .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 10px 10px 0 10px;
+    color: #000;
+}
+.main-page .header .left{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+
+}
+.main-page .header .right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-page .header .right .donate {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+}
+
+.main-page .header .right .lang {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+}
+
+.main-page .header .right .lang select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.main-page .page-center {
+   display: flex;
+   justify-content: center;
+}
+
+.main-page .page-center .login-info {
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.main-page .page-center .login-info .logo img {
+    width: 360px;
+    height: auto;
+}
+
+.main-page .page-center .login-info .sign-in {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.main-page .login-info input {
+    width: 100%;
+    border-radius: 5px;
+    background: #e8f1fe;
+    border: 1px solid #D9D9D9;
+    padding: 10px;
+}
+
+.main-page .login-info .mail {
+    margin-bottom: 15px;
+}
+
+.main-page .login-info .forgetpass {
+    font-size: 13px;
+    color: darkgray;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-style: dashed;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.main-page .page-center .login-info .signin button {
+    width: 100%;
+    padding: 5px;
+    background-color: #49AFD0;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.main-page .page-center .login-info .parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+ .main-page .page-center .login-info .parent .sign-up button{
+    width: 100px;
+    padding: 10px;
+    background-color: white;
+    border-color: gray;
+    border-radius: 10px;
+}
